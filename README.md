@@ -1,6 +1,11 @@
 # Configuration-Only Branch
 
-This branch only contains my configuration files, I use it by cloning the official Marlin repo, then pulling in the four files in the `Marlin` directory from this repo.
+This branch only contains my configuration files, I use it by cloning the official Marlin repo, then fetching the four files in the `Marlin` directory from this repo as below.
+
+```bash
+git remote add config https://github.com/dlford/Marlin.git
+git checkout config/config Marlin/Configuration.h Marlin/Configuration_adv.h Marlin/_Bootscreen.h Marlin/_Statusscreen.h
+```
 
 # !IMPORTANT!
 
