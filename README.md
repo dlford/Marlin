@@ -19,6 +19,7 @@ These configurations are not plug and play, they are tuned to my machine (Ender 
 - DEFAULT_bedKp
 - DEFAULT_bedKi
 - DEFAULT_bedKd
+- LIN_ADVANCE
 - FILAMENT_RUNOUT_DISTANCE_MM
 - ADVANCED_PAUSE_FEATURE (all feed lengths)
 - Stepper drivers and currents
